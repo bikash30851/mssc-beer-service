@@ -1,0 +1,8 @@
+guru\springframework\msscbeerservice\bootstrap\BeerLoader.class
+guru\springframework\msscbeerservice\web\controller\MvcControllerAdvice.class
+guru\springframework\msscbeerservice\repositories\BeerRepository.class
+guru\springframework\msscbeerservice\domain\Beer.class
+guru\springframework\msscbeerservice\domain\Beer$BeerBuilder.class
+guru\springframework\msscbeerservice\web\mappers\BeerMapperImpl.class
+guru\springframework\msscbeerservice\web\mappers\DateMapper.class
+guru\springframework\msscbeerservice\web\mappers\BeerMapper.class

@@ -1,4 +1,4 @@
-package guru.springframework.msscbreweryclient.domain;
+package guru.springframework.msscbeerservice.domain;
 
 
 import jakarta.persistence.*;

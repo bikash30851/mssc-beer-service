@@ -1,7 +1,7 @@
-package guru.springframework.msscbreweryclient.bootstrap;
+package guru.springframework.msscbeerservice.bootstrap;
 
-import guru.springframework.msscbreweryclient.domain.Beer;
-import guru.springframework.msscbreweryclient.repositories.BeerRepository;
+import guru.springframework.msscbeerservice.domain.Beer;
+import guru.springframework.msscbeerservice.repositories.BeerRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -23,29 +23,29 @@ public class BeerLoader implements CommandLineRunner {
     }
 
     private void loadBeerObjects() {
-        if(beerRepository.count() == 0){
+//        if(beerRepository.count() == 0){
+//
+//            beerRepository.save(Beer.builder()
+//                    .beerName("Mango Bobs")
+//                    .beerStyle("IPA")
+//                    .quantityToBrew(200)
+//                    .minOnHand(12)
+//                    .upc(3370100000000L)
+//                    .price(new BigDecimal("12.95"))
+//                    .build());
+//
+//            beerRepository.save(Beer.builder()
+//                    .beerName("Galaxy Cat")
+//                    .beerStyle("Pale Ale")
+//                    .quantityToBrew(200)
+//                    .minOnHand(12)
+//                    .upc(3370100001200L)
+//                    .price(new BigDecimal("11.95"))
+//                    .build());
+//
+//        }
 
-            beerRepository.save(Beer.builder()
-                    .beerName("Mango Bobs")
-                    .beerStyle("IPA")
-                    .quantityToBrew(200)
-                    .minOnHand(12)
-                    .upc(3370100000000L)
-                    .price(new BigDecimal("12.95"))
-                    .build());
-
-            beerRepository.save(Beer.builder()
-                    .beerName("Galaxy Cat")
-                    .beerStyle("Pale Ale")
-                    .quantityToBrew(200)
-                    .minOnHand(12)
-                    .upc(3370100001200L)
-                    .price(new BigDecimal("11.95"))
-                    .build());
-
-        }
-
-        System.out.println("Loaded Beer Objects " + beerRepository.count());
+//        System.out.println("Loaded Beer Objects " + beerRepository.count());
     }
 
 }
